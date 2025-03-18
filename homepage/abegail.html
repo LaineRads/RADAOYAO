@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abegail</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .columns{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .column{
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            background: white;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+        }
+        .column img{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px){
+            .columns{
+                flex-direction: column;
+            }
+        }
+        ul li{
+            list-style: disc;
+        }
+    </style>  
+</head>
+<body>
+    <header>
+        <h1>Abegail Hope M. Oyao</h1>
+    </header>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2>Life Highlight</h2>
+                <img src="HL.jpg" alt="Highlight">
+                <p></p>
+            </div>
+            <div class="column">
+                <img src="" alt="">
+                <h2>Fav emojis</h2>
+                <p>&#128584; &#128572; &#128048;</p>
+            </div>
+            <div class="column">
+                <img src="" alt="">
+                <h2>Fav Books</h2>
+                <ul>
+                    <li>Variety</li>
+                    <li>Silent Patient</li>
+                    <li>Pride and Prejudice</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2025 Blog</p>
+    </footer>
+</body>
+</html>
